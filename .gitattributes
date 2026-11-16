@@ -1,0 +1,9 @@
+# Normalize line endings: store text as LF in the repo (consistent on Linux reviewers).
+* text=auto eol=lf
+
+# Treat these as binary (no EOL munging, no diff noise).
+*.png binary
+*.joblib binary
+*.parquet binary
+*.xlsx binary
+*.zip binary

@@ -1,0 +1,26 @@
+# Keep the build context small and the image clean.
+# NOTE: models/ is intentionally NOT ignored — the image needs models/model.joblib.
+.venv/
+venv/
+env/
+data/
+reports/
+notebooks/
+tests/
+scripts/
+docs/
+.git/
+.gitignore
+.github/
+*.zip
+*.xlsx
+*.parquet
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.md
+requirements.txt
